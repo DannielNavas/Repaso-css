@@ -1,3 +1,72 @@
-.wow {
-  width: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montez&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, body {
+  margin: 0;
+  body: 0;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+article {
+  height: auto;
+  width: 250px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 16px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+h1 {
+  color: #C70039;
+  text-align: center;
+  font-family: 'Montez', cursive;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 4px;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.subrallado{
+  text-decoration: underline #c55e7b;
+}
+
+a {
+  text-decoration: none;
+  color: #581845;
+  cursor: wait;
+}
+
+.new-card {
+  background: white;
+}
+#nombre {
+  font-family: 'Monoton', cursive;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  background: black;
 }
